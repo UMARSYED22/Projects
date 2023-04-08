@@ -1,0 +1,63 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap'); */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+}
+
+body{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top right,#0a0a0a,#3a4452);
+}
+
+#main{
+    border: 1px solid #717377;
+    padding:20px;
+    border-radius: 17px;
+    background-color: transparent;
+    box-shadow: 0px 3px 16px 5px rgba(113,115,119,0.5);
+    
+
+}
+input{
+    width:300px;
+    background-color: transparent;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    text-align: right;
+    /* box-shadow: 0px 3px 16px 5px rgba(113,115,119,0.5); ; */
+    font-weight: 500;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+input::placeholder{
+    color:#ffffff;
+}
+button{
+    height:60px;
+    width: 60px;
+    background-color: transparent;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 40px;
+    font-size: 15px ;
+    color: #ffffff;
+
+    box-shadow: -2px -8px 16px  rgba(255,255,255,0.2);
+    cursor: pointer;
+}
+.equalbtn{
+    background-color:#fb7c14;
+}
+.op{
+    color: #6dee06;
+}
